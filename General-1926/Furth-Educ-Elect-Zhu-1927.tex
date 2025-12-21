@@ -1,0 +1,55 @@
+\documentclass[a5j,12pt]{ltjtarticle}
+
+\title{\gtfamily 談升學與選課 \\[1em]
+  \hfil\normalsize\mcfamily ——給一個中校生的十二封信之七——\hspace*{-3\zw}}
+\author{\small\kai 孟實}
+\date{}
+
+\usepackage{luatexja-fontspec}
+\setmainjfont[TateFeatures={JFM=custom/{kaiming,vert,hwcl}}]{Adobe Song Std}
+\setsansjfont{Adobe Heiti Std}
+\newjfontfamily\kai{Adobe Kaiti Std}
+
+\parindent2\zw
+
+\usepackage{ulem}
+\makeatletter
+\UL@protected\def\kahasen{%
+    \leavevmode \bgroup 
+    \markoverwith{\lower5\p@\hbox{\sixly \char58}}\ULon}
+\DeclareRobustCommand\kasen[1]{%
+  \ifnum\ltjgetparameter{direction}=3\relax
+    \setbox\z@\hbox{#1}\leavevmode\raise.55\zw
+    \hbox to\z@{\vrule\@width\wd\z@ \@depth\z@ \@height.4\p@\hss}%
+    \box\z@
+  \else\underline{#1}\fi}
+\makeatother
+
+% 青 --> 靑
+% 才 --> 纔
+% 只 --> 祗
+% 冊 --> 册
+
+\begin{document}
+\maketitle
+
+\noindent 朋友：
+
+你快要在中學畢業了，此時升學問題自然常在腦際盤旋。這一着也是人生一大關鍵，所以值得你慎而又慎。
+
+升學問題分析起來便成爲兩個問題，第一是選校問題，第二是選科問題。這兩個問題自然是密切相關的，但是爲說話清晰起見，分開來說，較爲便利。
+
+我把選校問題放在第一，因爲靑年們對於選校是最容易走入迷途的。現在\kasen{中國}社會還帶有科舉時代的資格迷。比方說小學纔畢業便希望進大學，中學纔畢業便希望出洋，出洋基本學問還沒有做好，便希望掇拾\kasen{中國}古色斑斑的東西去換博士。學校文憑只是一種找飯碗的敲門磚。學校招牌愈亮，文憑就愈行時，實學是無人過問的。社會既有這種資格迷，而資格買賣所便乘機而起。租三間鋪面，拉攏一個名流當「名譽校長」，便可掛起一個某某大學的招牌，只看\kasen{上海}一隅，大學的總數比\kasen{英}或\kasen{法}全國大學的總數似乎還要超過，誰說\kasen{中國}文化沒有提高呢？大學既多，只是稱「大學」還不能動聽，於是「大學」之上又冠以「\kasen{美國}政府註冊」的頭銜。既「大學」而又在「\kasen{美國}政府註冊」，生意自然更加茂盛了，何況許多名流又肯「熱心教育」做「名譽校長」呢？
+
+朋友，可惜這些多如牛毛的大學都不能解決我們升學的困難，因爲那些有「名譽校長」或是「\kasen{美國}政府註冊」的大學，是預備讓有錢可花的少爺公子們去逍遙歲月的，像你我們既無錢可花，又無時光可花，只好望望然去罷。
+
+\hfill 你的好友　\kasen{光潛}。\hspace{\parindent}
+
+\bigskip
+
+\hfill （原載自\kahasen{一般}雜誌第二卷第四期）\hspace{2\parindent}
+\end{document}
+
+% Local Variables:
+% TeX-engine: luatex
+% End:
