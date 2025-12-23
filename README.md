@@ -5,7 +5,7 @@ Here are some articles.
 * _What is Teaching?_ by Paul R. Halmos ([HTML][1], [PDF][2], [PDF][3] in A6 size)
 * 朱自清：匆匆（[HTML][9]，[PDF][4]，原始扫描[图片][5]）
 * 鲁迅：聪明人和傻子和奴才（野草之二十）（[HTML][10]，[PDF][6]，原始扫描[图片][7]，《[野草][8]》集）
-* 朱光潜：談升學與選課（給一個中校生的十二封信之七）（[HTML][11]，[PDF][12]，原始扫描[PDF][13]）
+* 朱光潜：谈升学与选课（给一个中校生的十二封信之七）（[HTML][11]，[PDF][12]，原始扫描[PDF][13]）
 
 [1]: https://leeifrankjaw.github.io/Papers/Am-Math-Mon/Halmos-1994.html
 [2]: https://leeifrankjaw.github.io/Papers/Am-Math-Mon/Halmos-1994.pdf
