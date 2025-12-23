@@ -14,20 +14,27 @@
   text-align: justify;
 }
 
-#content {
+#content:lang(en) {
   font-family: Palatino Linotype, Palatino, Times New Roman, Times, serif;
   font-feature-settings: "dlig", "onum";
-  font-size: 1.4em;
+}
+
+#content:lang(zh) {
+  font-family: sans;
 }
 
 #postamble {
     margin-top: 1.2em;
 }
 
-@media (max-width: 1366px) {
-    #content, #postamble, #disqus_thread {
-        max-width: 768px;
-    }
+@media (min-width: 1366px) {
+  #content, #postamble, #disqus_thread {
+    max-width: 768px;
+  }
+
+  #content {
+    font-size: 1.4em;
+  }
 }
 
 th.org-left {
